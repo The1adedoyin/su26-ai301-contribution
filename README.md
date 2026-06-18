@@ -42,9 +42,9 @@ I chose this issue because it is clearly scoped, directly explained, and points 
 | Comment left on course Google Sheet | ✅ Complete |
 | Contribution README created | ✅ Complete |
 | Issue link + problem summary in README | ✅ Complete |
-| Repo forked | ⬜ Pending |
-| Check-in form submitted | ⬜ Pending |
-| Announced in Slack | ⬜ Pending |
+| Repo forked | ✅ Complete |
+| Check-in form submitted | ✅ Complete |
+| Announced in Slack | ✅ Complete |
 
 ---
 
