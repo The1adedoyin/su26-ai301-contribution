@@ -4,7 +4,7 @@
 ---
 
 ## Current Status
-**Phase II — Reproduce & Plan** | Last Updated: June 14, 2026
+**Phase III — Build** | Last Updated: June 21, 2026
 
 ---
 
@@ -32,7 +32,7 @@ I chose this issue because it is clearly scoped, directly explained, and points 
 ---
 
 ## Phase I — Issue Selection
-
+**Status: Complete** | Deadline: June 8, 2026
 
 | Deliverable | Status |
 |---|---|
@@ -49,7 +49,7 @@ I chose this issue because it is clearly scoped, directly explained, and points 
 ---
 
 ## Phase II — Reproduce & Plan
-
+**Status: Complete** | Completed: June 17, 2026
 
 ### Environment Setup
 Cloned the forked repository locally using Git and PowerShell. Opened the project in VS Code using the `code .` command. No dependency errors or setup issues encountered. Environment was running and ready within 10 minutes.
