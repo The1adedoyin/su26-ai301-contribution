@@ -32,7 +32,7 @@ I chose this issue because it is clearly scoped, directly explained, and points 
 ---
 
 ## Phase I — Issue Selection
-**Status: In Progress** | Deadline: June 8, 2026
+
 
 | Deliverable | Status |
 |---|---|
@@ -49,7 +49,7 @@ I chose this issue because it is clearly scoped, directly explained, and points 
 ---
 
 ## Phase II — Reproduce & Plan
-**Status: Complete** | Completed: June 17, 2026
+
 
 ### Environment Setup
 Cloned the forked repository locally using Git and PowerShell. Opened the project in VS Code using the `code .` command. No dependency errors or setup issues encountered. Environment was running and ready within 10 minutes.
@@ -86,13 +86,32 @@ https://github.com/The1adedoyin/openalgo/tree/fix-issue-897
 ---
 
 ## Phase III — Build
-**Status: Not Started**
 
-*(To be filled in during Weeks 3+)*
+### Implementation Notes
 
----
+**What I built:**
+- Added a comprehensive Google-style docstring to `run_async()` in
+  `restx_api/telegram_bot.py` with Args, Returns, Raises, and Example sections
+- Added a comprehensive Google-style docstring to `get_webhook_secret()` in
+  `restx_api/telegram_bot.py` with Returns, Raises, and Example sections
+- No logic, behavior, or existing code was modified — this is a
+  documentation-only contribution
 
-## Phase IV — Submit & Iterate
-**Status: Not Started**
+**Key commit:**
+- `09e22f2b` — docs: add Google-style docstrings to run_async and
+  get_webhook_secret helpers
 
-*(To be filled in during Weeks 4+)*
+### Challenges Faced
+- Reviewed the project's `CONTRIBUTING.md` to confirm code style requirements
+  (Ruff, PEP 8, 100-character line limit, Conventional Commits format)
+- Discovered the existing commit message did not follow Conventional Commits
+  format and amended it using `git commit --amend`
+
+### Testing Strategy
+This is a documentation-only contribution — no logic or behavior was changed.
+The existing `test/test_telegram_bot.py` is a manual smoke test with no
+automated pytest-style unit tests for `run_async()` or `get_webhook_secret()`
+specifically. No new tests were added as there is no new behavior to validate.
+
+### Branch Link
+https://github.com/The1adedoyin/openalgo/tree/fix-issue-897
