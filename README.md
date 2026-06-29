@@ -117,11 +117,6 @@ https://github.com/The1adedoyin/openalgo/tree/fix-issue-897
 | **PR Link** | https://github.com/marketcalls/openalgo/pull/1 |
 | **Status** | Open — awaiting maintainer review |
 
-### Testing Strategy
-This is a documentation-only contribution — no logic or behavior was changed.
-The existing `test/test_telegram_bot.py` is a manual smoke test with no
-automated pytest-style unit tests for `run_async()` or `get_webhook_secret()`
-specifically. No new tests were added as there is no new behavior to validate.
 
 ### Branch Link
 https://github.com/The1adedoyin/openalgo/tree/fix-issue-897
