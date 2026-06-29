@@ -4,7 +4,7 @@
 ---
 
 ## Current Status
-**Phase III — Build** | Last Updated: June 21, 2026
+**Phase IV — Submit & Iterate** | Last Updated: June 28, 2026
 
 ---
 
@@ -17,7 +17,7 @@
 | **Organization** | marketcalls |
 | **Issue Link** | https://github.com/marketcalls/openalgo/issues/897 |
 | **Language** | Python |
-| **Status** | Claimed — Phase I |
+| **Status** | Pull Request Open — Phase IV |
 
 ---
 
@@ -106,6 +106,16 @@ https://github.com/The1adedoyin/openalgo/tree/fix-issue-897
   (Ruff, PEP 8, 100-character line limit, Conventional Commits format)
 - Discovered the existing commit message did not follow Conventional Commits
   format and amended it using `git commit --amend`
+
+## Phase IV — Submit & Iterate
+**Status: In Progress** | Started: June 28, 2026
+
+### Pull Request
+| Field | Details |
+|---|---|
+| **PR Title** | docs: add Google-style docstrings to run_async and get_webhook_secret helpers |
+| **PR Link** | https://github.com/marketcalls/openalgo/pull/1 |
+| **Status** | Open — awaiting maintainer review |
 
 ### Testing Strategy
 This is a documentation-only contribution — no logic or behavior was changed.
